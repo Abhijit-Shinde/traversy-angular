@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'new-app';
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
 }
